@@ -2,6 +2,7 @@ import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
+import Link from 'next/link'
 
 const Contact: NextPage = () => {
   return (
@@ -17,7 +18,16 @@ const Contact: NextPage = () => {
           Contact
         </h1>
 
-        <a href='/'><h1>Go back</h1></a>
+        <Link
+            href="/"
+            >
+            <a
+            className={styles.card}
+            >
+
+            <h2>Go Back</h2>
+            </a>
+          </Link>
 
       </main>
 
