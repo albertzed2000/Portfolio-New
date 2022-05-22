@@ -21,7 +21,7 @@ const Home: NextPage = () => {
             >
             <a
             className={styles.card}
-            
+            id={styles.aboutCard}
             >
 
             <h2>About</h2>
@@ -33,6 +33,7 @@ const Home: NextPage = () => {
             >
             <a
             className={styles.card}
+            id={styles.workCard}
             >
 
             <h2>Work</h2>
@@ -43,8 +44,8 @@ const Home: NextPage = () => {
             href="/gallery"
             >
             <a
-
             className={styles.card}
+            id={styles.galleryCard}
             >
 
             <h2>Gallery</h2>
@@ -56,6 +57,7 @@ const Home: NextPage = () => {
             >
             <a
             className={styles.card}
+            id={styles.contactCard}
             >
 
             <h2>Reach me</h2>
@@ -66,7 +68,7 @@ const Home: NextPage = () => {
       </main>
 
       <footer className={styles.footer}>
-        Copyright Albert Zheng 2022
+      Made with 💛 by Albert Zheng © 2022
       </footer>
     </div>
   )
