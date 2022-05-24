@@ -11,7 +11,13 @@ function MyApp({ Component, pageProps }: AppProps) {
         </Head>
         <Component {...pageProps} />
         <footer className={styles.footer}>
-      Made with 💛 by Albert Zheng © 2022
+          <span className={styles.footerCopyright}>
+            Made with 💛 by Albert Zheng © 2022
+          </span>
+          
+          <span className={styles.footerIconsContainer}>
+            ICON HYPERLINKS GO HERE
+          </span>
       </footer>
   </>)
 }
