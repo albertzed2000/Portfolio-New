@@ -90,6 +90,7 @@
   align-content: center;
   justify-content: center;
   flex-direction: column;
+  font-family: Helvetica;
 }
 
 
@@ -112,6 +113,22 @@
   cursor: pointer;
   pointer-events: auto;
   transition: 150ms opacity, 150ms transform;
+}
+
+#aboutCard {
+  color: #89608E;
+}
+
+#workCard {
+  color: #F79256;
+}
+
+#galleryCard {
+  color: #00B2CA;
+}
+
+#contactCard {
+  color: #9BC53D;
 }
 
 #aboutCard:hover {

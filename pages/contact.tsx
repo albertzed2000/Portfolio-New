@@ -7,11 +7,6 @@ import Link from 'next/link'
 const Contact: NextPage = () => {
   return (
     <div className={styles.container}>
-      <Head>
-        <title>Contact</title>
-        <meta name="description" content="You can contact me through this link here." />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
 
       <main className={styles.main}>
         <h1 className={styles.title}>
@@ -30,10 +25,6 @@ const Contact: NextPage = () => {
           </Link>
 
       </main>
-
-      <footer className={styles.footer}>
-        Copyright Albert Zheng 2022
-      </footer>
     </div>
   )
 }

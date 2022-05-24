@@ -7,11 +7,6 @@ import Link from 'next/link'
 const Work: NextPage = () => {
   return (
     <div className={styles.container}>
-      <Head>
-        <title>Work</title>
-        <meta name="description" content="Here are some of the projects and work experiences I've been part of." />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
 
       <main className={styles.main}>
         <h1 className={styles.title}>
@@ -30,10 +25,6 @@ const Work: NextPage = () => {
           </Link>
 
       </main>
-
-      <footer className={styles.footer}>
-        Copyright Albert Zheng 2022
-      </footer>
     </div>
   )
 }

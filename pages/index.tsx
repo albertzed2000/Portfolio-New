@@ -1,21 +1,23 @@
 import type { NextPage } from 'next'
-import Head from 'next/head'
+
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import Link from 'next/link'
+import { motion } from "framer-motion"
 
 const Home: NextPage = () => {
+
+  const variants = {
+    hidden: { opacity: 0 },
+    visible: { opacity: 1 },
+  }
+
   return (
     <div className={styles.container}>
-      <Head>
-        <title>Under Construction!</title>
-        <meta name="description" content="Homepage and landing page for Albert Zheng's Portfolio Site" />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
 
       <main className={styles.main}>
-        
-        <div className={styles.grid}>
+        <p></p>
+        <motion.div initial="hidden" animate="visible" transition={{duration: 0.3}} variants={variants} className={styles.grid}>
           <Link
             href="/about"
             >
@@ -24,7 +26,7 @@ const Home: NextPage = () => {
             id={styles.aboutCard}
             >
 
-            <h2>About</h2>
+            <h2>ABOUT</h2>
             </a>
           </Link>
 
@@ -36,7 +38,7 @@ const Home: NextPage = () => {
             id={styles.workCard}
             >
 
-            <h2>Work</h2>
+            <h2>WORK</h2>
             </a>
           </Link>
 
@@ -48,7 +50,7 @@ const Home: NextPage = () => {
             id={styles.galleryCard}
             >
 
-            <h2>Gallery</h2>
+            <h2>GALLERY</h2>
             </a>
           </Link>
 
@@ -60,16 +62,12 @@ const Home: NextPage = () => {
             id={styles.contactCard}
             >
 
-            <h2>Reach me</h2>
+            <h2>CONTACT</h2>
             </a>
           </Link>
 
-        </div>
+        </motion.div>
       </main>
-
-      <footer className={styles.footer}>
-      Made with 💛 by Albert Zheng © 2022
-      </footer>
     </div>
   )
 }

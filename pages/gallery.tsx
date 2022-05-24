@@ -7,11 +7,6 @@ import Link from 'next/link'
 const Gallery: NextPage = () => {
   return (
     <div className={styles.container}>
-      <Head>
-        <title>Gallery</title>
-        <meta name="description" content="Here is a photo gallery just to pique your interest" />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
 
       <main className={styles.main}>
         <h1 className={styles.title}>
@@ -30,10 +25,6 @@ const Gallery: NextPage = () => {
           </Link>
 
       </main>
-
-      <footer className={styles.footer}>
-        Copyright Albert Zheng 2022
-      </footer>
     </div>
   )
 }
