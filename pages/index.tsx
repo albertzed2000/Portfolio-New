@@ -17,7 +17,7 @@ const Home: NextPage = () => {
 
       <main className={styles.main}>
         <p></p>
-        <motion.div initial="hidden" animate="visible" transition={{duration: 0.3}} variants={variants} className={styles.grid}>
+        <motion.div initial="hidden" animate="visible" transition={{duration: 0.5}} variants={variants} className={styles.grid}>
           <Link
             href="/about"
             >

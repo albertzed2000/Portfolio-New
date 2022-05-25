@@ -20,7 +20,7 @@ const About: NextPage = () => {
 
             <h2>Go Back</h2>
             </a>
-          </Link>
+        </Link>
 
       </main>
     </div>
