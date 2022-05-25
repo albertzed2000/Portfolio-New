@@ -95,7 +95,7 @@
 
 
 .grid:hover > * {
-  opacity: 0.1;
+  opacity: 0.6;
 }
 
 .grid:hover > *:hover {
@@ -186,6 +186,28 @@
   padding-right: 90px;
   margin-left: auto;
 }
+
+.largeParagraphText {
+  font-size: 45px;
+  font-weight: 500;
+}
+
+#aboutHeader {
+  color: #89608E;
+}
+
+#workHeader {
+  color: #F79256;
+}
+
+#galleryHeader {
+  color: #00B2CA;
+}
+
+#contactHeader {
+  color: #9BC53D;
+}
+
 
 @media (max-width: 600px) {
   .grid {

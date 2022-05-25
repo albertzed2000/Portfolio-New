@@ -9,8 +9,8 @@ const Work: NextPage = () => {
     <div className={styles.container}>
 
       <main className={styles.main}>
-        <h1 className={styles.title}>
-          Work
+        <h1 className={styles.title} id={styles.workHeader}>
+          WORK
         </h1>
 
         <Link

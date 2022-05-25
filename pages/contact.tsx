@@ -9,8 +9,8 @@ const Contact: NextPage = () => {
     <div className={styles.container}>
 
       <main className={styles.main}>
-        <h1 className={styles.title}>
-          Contact
+        <h1 className={styles.title} id={styles.contactHeader}>
+          CONTACT
         </h1>
 
         <Link
