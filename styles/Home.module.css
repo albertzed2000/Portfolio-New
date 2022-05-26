@@ -93,9 +93,17 @@
   font-family: Helvetica;
 }
 
+.aboutText{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 500px;
+}
+
 
 .grid:hover > * {
-  opacity: 0.6;
+  opacity: 0.8;
 }
 
 .grid:hover > *:hover {
@@ -106,6 +114,7 @@
 
 .grid {
   pointer-events: none;
+  /* background-color: black; */
 }
 
 .grid > * {
@@ -188,7 +197,7 @@
 }
 
 .largeParagraphText {
-  font-size: 45px;
+  font-size: 40px;
   font-weight: 500;
 }
 

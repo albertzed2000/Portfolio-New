@@ -3,7 +3,7 @@ import type { NextPage } from 'next'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import Link from 'next/link'
-import { motion } from "framer-motion"
+import Layout from '../components/Layout'
 
 const Home: NextPage = () => {
 
@@ -13,11 +13,12 @@ const Home: NextPage = () => {
   }
 
   return (
+    <Layout>
     <div className={styles.container}>
 
       <main className={styles.main}>
         <p></p>
-        <motion.div initial="hidden" animate="visible" transition={{duration: 0.5}} variants={variants} className={styles.grid}>
+        <div className={styles.grid}>
           <Link
             href="/about"
             >
@@ -66,9 +67,10 @@ const Home: NextPage = () => {
             </a>
           </Link>
 
-        </motion.div>
+        </div>
       </main>
     </div>
+    </Layout>
   )
 }
 
