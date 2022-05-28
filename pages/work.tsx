@@ -12,7 +12,7 @@ const Work: NextPage = () => {
     <div className={styles.container}>
 
       <main className={styles.main}>
-        <div className={styles.title} id={styles.workHeader}>
+        <div className={styles.pageTitle} id={styles.workHeader}>
           WORK
         </div>
 
@@ -22,7 +22,7 @@ const Work: NextPage = () => {
           className="vertical-timeline-element--work"
           contentStyle={{ background: "#F79256", color: "black" }}
           contentArrowStyle={{ borderRight: "7px solid  #F79256" }}
-          date="Summer 2023 - ???"
+          date="Spring/Summer '23 - ???"
           iconStyle={{ background: "#F79256", color: "#fff" }}
           >
             <div className={styles.timelineElementTitle}>
@@ -38,7 +38,7 @@ const Work: NextPage = () => {
           className="vertical-timeline-element--work"
           contentStyle={{ background: "#F79256", color: "black" }}
           contentArrowStyle={{ borderRight: "7px solid  #F79256" }}
-          date="May 2021 - August 2022"
+          date="May '21 - August '22"
           iconStyle={{ background: "#F79256", color: "#fff" }}
           >
             <div className={styles.timelineElementTitle}>Intern Software Dev, StoneX Financial</div>

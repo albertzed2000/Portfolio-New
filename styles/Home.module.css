@@ -153,6 +153,11 @@
   font-weight: 500;
 }
 
+.pageTitle {
+  font-size: 45px;
+  font-weight: 700;
+}
+
 #aboutHeader {
   color: #89608E;
 }
@@ -170,8 +175,6 @@
 
 #workHeader {
   color: #F79256;
-  font-size: 45px;
-  font-weight: 700;
 }
 
 /* =========GALLERY============ */
@@ -193,12 +196,13 @@
 .timelineElementTitle {
   font-size: 25px;
   font-weight: 700;
+  color: black;
 }
 
 .timelineElementTech {
   font-size: 15px;
   font-weight: 600;
-  color: #5c5c5c;
+  color: black;
   padding: 10px 0 0 0;
 }
 
