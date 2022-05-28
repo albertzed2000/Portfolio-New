@@ -20,7 +20,7 @@ const Layout = ({ children}: Props): JSX.Element => (
         initial="hidden"
         animate="visible"
         exit="exit"
-        transition={{duration: 0.15}}
+        transition={{duration: 0.12}}
         variants={variants}
         >
             {children}

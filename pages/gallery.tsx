@@ -3,6 +3,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import Link from 'next/link'
+import Back from '../components/Back'
 
 const Gallery: NextPage = () => {
   return (
@@ -13,17 +14,7 @@ const Gallery: NextPage = () => {
           GALLERY
         </h1>
 
-        <Link
-            href="/"
-            >
-            <a
-            className={styles.card}
-            >
-
-            <h2>Go Back</h2>
-            </a>
-          </Link>
-
+        <Back/>
       </main>
     </div>
   )

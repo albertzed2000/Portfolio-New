@@ -3,6 +3,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import styles from '../styles/Home.module.css'
 import Layout from '../components/Layout'
+import Back from '../components/Back'
 
 const About: NextPage = () => {
 
@@ -21,19 +22,11 @@ const About: NextPage = () => {
             <span className={styles.largeParagraphText}>
                 My name is Albert. I’m a software engineer
                 and a 4th-year Computer Science and Economics 
-                student at the University of Toronto.
+                student at the University of Toronto. I'm based in Toronto & Vancouver,
+                and very open to opportunities in Canada and the United States.
             </span>
 
-            <Link
-                href="/"
-                >
-                <a
-                className={styles.card}
-                >
-
-                <h2>Go Back</h2>
-                </a>
-            </Link>
+            <Back/>
 
         </main>
         </div>
