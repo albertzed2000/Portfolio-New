@@ -20,9 +20,9 @@ const About: NextPage = () => {
             ABOUT
             </h1>
             <span className={styles.largeParagraphText}>
-                My name is Albert. I’m a software engineer
+                My name is Albert. I&apos;m a software engineer
                 and a 4th-year Computer Science and Economics 
-                student at the University of Toronto. I'm based in Toronto & Vancouver,
+                student at the University of Toronto. I&apos;m based in Toronto &amp; Vancouver,
                 and very open to opportunities in Canada and the United States.
             </span>
 

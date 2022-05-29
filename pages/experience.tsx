@@ -38,7 +38,7 @@ const Experience: NextPage = () => {
             </div>
 
             <div className={styles.timelineElementDescription}>
-              Let's connect and make it happen!
+              Let&apos;s connect and make it happen!
             </div>
           </VerticalTimelineElement>
 
@@ -126,7 +126,7 @@ const Experience: NextPage = () => {
             </div>
             <div className={styles.timelineElementDescription}>
               Take a picture of a Pokemon card and instantly retrieve its
-              approximate sale value.
+              approximate sale value. 3rd place at OakHacks.
             </div>
 
             <div className={styles.timelineElementIcons}>
@@ -152,7 +152,7 @@ const Experience: NextPage = () => {
               LoLStats
             </div>
             <div className={styles.timelineElementTech}>
-              React | AWS Lambda & Api Gateway | Node | MongoDB | Express
+              React | AWS Lambda &amp; Api Gateway | Node | MongoDB | Express
             </div>
             <div className={styles.timelineElementDescription}>
               Retrieve the aggregated stats of any player in the popular multiplayer game League of Legends, using
@@ -169,11 +169,6 @@ const Experience: NextPage = () => {
               </a>
             </div>
           </VerticalTimelineElement>
-
-          
-
-
-
 
           </VerticalTimeline>
 
