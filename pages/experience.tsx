@@ -6,10 +6,13 @@ import Link from 'next/link'
 import { VerticalTimeline, VerticalTimelineElement } from "react-vertical-timeline-component"
 import "react-vertical-timeline-component/style.min.css";
 import Back from '../components/Back'
+
 import {BiGitBranch} from 'react-icons/bi'
 import {BsFileTextFill} from 'react-icons/bs'
 import {RiProfileFill} from 'react-icons/ri'
 import {FaNpm} from 'react-icons/fa'
+import WorkIcon from '@mui/icons-material/Work'
+import TipsAndUpdatesIcon from '@mui/icons-material/TipsAndUpdates';
 
 const Experience: NextPage = () => {
   return (
@@ -27,18 +30,15 @@ const Experience: NextPage = () => {
           contentStyle={{ background: "#F79256", color: "black" }}
           contentArrowStyle={{ borderRight: "7px solid  #F79256" }}
           date="Spring/Summer '23 - ???"
-          iconStyle={{ background: "#F79256", color: "#fff" }}
+          iconStyle={{ background: "#F79256", color: "#000" }}
+          icon={<WorkIcon/>}
           >
             <div className={styles.timelineElementTitle}>
               Your Company
             </div>
 
-            <div className={styles.timelineElementTech}>
-                Your company's technologies
-            </div>
-
             <div className={styles.timelineElementDescription}>
-              Connect with me and let's make it happen!
+              Let's connect and make it happen!
             </div>
           </VerticalTimelineElement>
 
@@ -47,7 +47,8 @@ const Experience: NextPage = () => {
           contentStyle={{ background: "#F79256", color: "black" }}
           contentArrowStyle={{ borderRight: "7px solid  #F79256" }}
           date="May '21 - August '22"
-          iconStyle={{ background: "#F79256", color: "#fff" }}
+          iconStyle={{ background: "#F79256", color: "#000" }}
+          icon={<WorkIcon/>}
           >
             <div className={styles.timelineElementTitle}>Intern Software Dev, StoneX Financial</div>
             <div className={styles.timelineElementTech}>
@@ -69,8 +70,9 @@ const Experience: NextPage = () => {
           className={styles.timelineElement}
           contentStyle={{ background: "#F79256", color: "black" }}
           contentArrowStyle={{ borderRight: "7px solid  #F79256" }}
-          date="May '21 - August '22"
-          iconStyle={{ background: "#F79256", color: "#fff" }}
+          date="December '20"
+          iconStyle={{ background: "#F79256", color: "#000" }}
+          icon={<TipsAndUpdatesIcon/>}
           >
             <div className={styles.timelineElementTitle}>
               PrettyLine
@@ -107,6 +109,68 @@ const Experience: NextPage = () => {
               </a>
             </div>
           </VerticalTimelineElement>
+
+          <VerticalTimelineElement
+          className={styles.timelineElement}
+          contentStyle={{ background: "#F79256", color: "black" }}
+          contentArrowStyle={{ borderRight: "7px solid  #F79256" }}
+          date="September '20"
+          iconStyle={{ background: "#F79256", color: "#000" }}
+          icon={<TipsAndUpdatesIcon/>}
+          >
+            <div className={styles.timelineElementTitle}>
+              PokeRec
+            </div>
+            <div className={styles.timelineElementTech}>
+              React Native
+            </div>
+            <div className={styles.timelineElementDescription}>
+              Take a picture of a Pokemon card and instantly retrieve its
+              approximate sale value.
+            </div>
+
+            <div className={styles.timelineElementIcons}>
+              <a
+              href='https://github.com/albertzed2000/PokeRec'
+              target='blank'
+              className={styles.timelineElementIcon}
+              >
+                <BiGitBranch/>
+              </a>
+            </div>
+          </VerticalTimelineElement>
+
+          <VerticalTimelineElement
+          className={styles.timelineElement}
+          contentStyle={{ background: "#F79256", color: "black" }}
+          contentArrowStyle={{ borderRight: "7px solid  #F79256" }}
+          date="August '20"
+          iconStyle={{ background: "#F79256", color: "#000" }}
+          icon={<TipsAndUpdatesIcon/>}
+          >
+            <div className={styles.timelineElementTitle}>
+              LoLStats
+            </div>
+            <div className={styles.timelineElementTech}>
+              React | AWS Lambda & Api Gateway | Node | MongoDB | Express
+            </div>
+            <div className={styles.timelineElementDescription}>
+              Retrieve the aggregated stats of any player in the popular multiplayer game League of Legends, using
+              the Riot Games API.
+            </div>
+
+            <div className={styles.timelineElementIcons}>
+              <a
+              href='https://github.com/albertzed2000/LolStats-New'
+              target='blank'
+              className={styles.timelineElementIcon}
+              >
+                <BiGitBranch/>
+              </a>
+            </div>
+          </VerticalTimelineElement>
+
+          
 
 
 
