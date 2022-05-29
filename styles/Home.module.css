@@ -87,11 +87,11 @@
   border-color: #89608E;
   color: white;
 }
-#workCard {
+#experienceCard {
   color: #F79256;
 }
 
-#workCard:hover {
+#experienceCard:hover {
   background-color: #F79256;
   border-color: #F79256;
   color: white;
@@ -171,9 +171,9 @@
 }
 
 
-/* =========WORK============ */
+/* =========EXPERIENCE============ */
 
-#workHeader {
+#experienceHeader {
   color: #F79256;
 }
 
@@ -200,10 +200,32 @@
 }
 
 .timelineElementTech {
-  font-size: 15px;
+  font-size: 18px;
   font-weight: 600;
   color: black;
-  padding: 10px 0 0 0;
+  padding: 5px 0 0 0;
+  font-style: italic;
+}
+
+.timelineElementDescription {
+  font-size: 16px;
+  color: black;
+  padding: 5px 0 0 0;
+}
+
+.timelineElementIcons {
+  font-size: 25px;
+  padding: 5px 0 0 0;
+}
+
+.timelineElementIcon {
+  padding: 0 7px 0 0;
+}
+
+.timelineElementIcon:hover {
+
+  /* font-size: 50px !important; */
+  color: #787777;
 }
 
 @media (max-width: 600px) {

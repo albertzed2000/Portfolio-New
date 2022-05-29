@@ -32,14 +32,14 @@ const Home: NextPage = () => {
           </Link>
 
           <Link
-            href="/work"
+            href="/experience"
             >
             <a
             className={styles.card}
-            id={styles.workCard}
+            id={styles.experienceCard}
             >
 
-            <h2>WORK</h2>
+            <h2>EXPERIENCE</h2>
             </a>
           </Link>
 
