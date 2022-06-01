@@ -10,7 +10,7 @@ const Gallery: NextPage = () => {
     <div className={styles.container}>
 
       <main className={styles.main}>
-        <h1 className={styles.title} id={styles.galleryHeader}>
+        <h1 className={styles.pageTitle} id={styles.galleryHeader}>
           GALLERY
         </h1>
 

@@ -1,22 +1,15 @@
 import type { NextPage } from 'next'
-import Image from 'next/image'
-import Link from 'next/link'
 import styles from '../styles/Home.module.css'
 import Layout from '../components/Layout'
 import Back from '../components/Back'
 
 const About: NextPage = () => {
 
-    const variants = {
-        hidden: { opacity: 0 },
-        visible: { opacity: 1 },
-      }
-    
   return (
     <Layout>
         <div className={styles.container}>
         <main className={styles.main}>
-            <h1 className={styles.title} id={styles.aboutHeader}>
+            <h1 className={styles.pageTitle} id={styles.aboutHeader}>
             ABOUT
             </h1>
             <span className={styles.largeParagraphText}>

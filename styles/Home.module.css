@@ -228,6 +228,57 @@
   color: #787777;
 }
 
+/* ==========CONTACT================== */
+.contactIcons {
+  font-size: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 500px;
+}
+
+.contactIcons:hover > * {
+  opacity: 0.8;
+}
+
+.contactIcons:hover > *:hover {
+  opacity: 1;
+  transform: scale(1.1);
+  color: #9BC53D;
+}
+
+.contactIcons {
+  pointer-events: none;
+  /* background-color: black; */
+}
+
+.contactIcons > * {
+  background: #fff;
+  cursor: pointer;
+  pointer-events: auto;
+  transition: 150ms opacity, 150ms transform;;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media (max-width: 600px) {
   .grid {
     width: 100%;

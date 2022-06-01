@@ -25,7 +25,7 @@ const Experience: NextPage = () => {
 
         <VerticalTimeline className={styles.timelineContainer} lineColor="#F79256">
 
-        <VerticalTimelineElement
+        {/* <VerticalTimelineElement
           className={styles.timelineElement}
           contentStyle={{ background: "#F79256", color: "black" }}
           contentArrowStyle={{ borderRight: "7px solid  #F79256" }}
@@ -40,7 +40,7 @@ const Experience: NextPage = () => {
             <div className={styles.timelineElementDescription}>
               Let&apos;s connect and make it happen!
             </div>
-          </VerticalTimelineElement>
+          </VerticalTimelineElement> */}
 
           <VerticalTimelineElement
           className={styles.timelineElement}
@@ -126,7 +126,7 @@ const Experience: NextPage = () => {
             </div>
             <div className={styles.timelineElementDescription}>
               Take a picture of a Pokemon card and instantly retrieve its
-              approximate sale value. 3rd place at OakHacks.
+              approximate sale value. 3rd place at Oakhacks 2020.
             </div>
 
             <div className={styles.timelineElementIcons}>
