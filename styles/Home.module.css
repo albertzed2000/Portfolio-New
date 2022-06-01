@@ -135,15 +135,29 @@
 }
 
 .footerIconsContainer {
-  padding-right: 90px;
+  /* background-color: #00B2CA; */
+  padding: 0px 90px 0 0;
   margin-left: auto;
+  font-size: 45px;
+  display: inline;
+  margin-top: -1rem;
 }
 
-.footer a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-grow: 1;
+
+#footerGithubIcon:hover {
+  color: #312d31;
+}
+
+#footerLinkedinIcon:hover {
+  color:#F79256;
+}
+
+#footerMailIcon:hover {
+  color:#00B2CA;
+}
+
+#footerResumeIcon:hover {
+  color:#9BC53D;
 }
 
 /* =========ABOUT============ */
