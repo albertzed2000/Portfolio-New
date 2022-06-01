@@ -5,16 +5,40 @@ import styles from '../styles/Home.module.css'
 import Link from 'next/link'
 import Back from '../components/Back'
 
+import {AiFillGithub, AiFillLinkedin, AiFillMail} from 'react-icons/ai'
+import {FaToiletPaper} from 'react-icons/fa'
+
 const Contact: NextPage = () => {
   return (
     <div className={styles.container}>
 
       <main className={styles.main}>
-        <h1 className={styles.title} id={styles.contactHeader}>
+        <h1 className={styles.pageTitle} id={styles.contactHeader}>
           CONTACT
         </h1>
 
-          <Back/>
+        <div className={styles.contactIcons}>
+
+          <a href='https://github.com/albertzed2000' target='blank'>
+          <AiFillGithub/>
+          </a>
+
+          <a href='https://www.linkedin.com/in/albertzed/' target='blank'>
+          <AiFillLinkedin/>
+          </a>
+
+          <a href='mailto:mralbertzheng@gmail.com' target='blank'>
+          <AiFillMail/>
+          </a>
+
+          <a href='https://drive.google.com/file/d/1UiSaKY1HgD1ayzoK8QDWVDTAIjo0lBpu/view?usp=sharing' target='blank'>
+          <FaToiletPaper/>
+          </a>
+
+
+        </div>
+
+        <Back/>
 
       </main>
     </div>
