@@ -27,22 +27,6 @@ const Experience: NextPage = () => {
 
         <VerticalTimeline className={styles.timelineContainer} lineColor="#F79256">
 
-        {/* <VerticalTimelineElement
-          className={styles.timelineElement}
-          contentStyle={{ background: "#F79256", color: "black" }}
-          contentArrowStyle={{ borderRight: "7px solid  #F79256" }}
-          date="Spring/Summer '23 - ???"
-          iconStyle={{ background: "#F79256", color: "#000" }}
-          icon={<WorkIcon/>}
-          >
-            <div className={styles.timelineElementTitle}>
-              Your Company
-            </div>
-
-            <div className={styles.timelineElementDescription}>
-              Let&apos;s connect and make it happen!
-            </div>
-          </VerticalTimelineElement> */}
 
           <VerticalTimelineElement
           className={styles.timelineElement}
@@ -59,7 +43,7 @@ const Experience: NextPage = () => {
 
             <div className={styles.timelineElementIcons}>
               <a
-              href='https://cryptic-taiga-39693.herokuapp.com/landing/landing.html'
+              href='https://www.stonex.com/'
               target='blank'
               className={styles.timelineElementIcon}
               >
