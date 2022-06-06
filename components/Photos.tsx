@@ -4,58 +4,58 @@ export const photos = [{
     height: 4032
   },
   {
-    src: '/gallery/avo.jpeg',
+    src: '/gallery/avo.jpg',
     width: 3024,
     height: 4032
   },
   {
-    src: '/gallery/double.jpeg',
+    src: '/gallery/double.jpg',
     width: 3024,
     height: 4032
   },
   {
-    src: '/gallery/cullen.jpeg',
+    src: '/gallery/cullen.jpg',
     width: 3024,
     height: 4032
   },
   {
-    src: '/gallery/fish.jpeg',
+    src: '/gallery/fish.jpg',
     width: 3024,
     height: 4032
   },
   {
-    src: '/gallery/flick.jpeg',
+    src: '/gallery/flick.jpg',
     width: 3024,
     height: 4032
   },
   {
-    src: '/gallery/food.jpeg',
+    src: '/gallery/food.jpg',
     width: 3024,
     height: 4032
   },
   {
-    src: '/gallery/piu.jpeg',
-    width: 3024,
-    height: 4032
-  },
-  {
-    src: '/gallery/seafood.jpeg',
+    src: '/gallery/piu.jpg',
     width: 4032,
     height: 3024
   },
   {
-    src: '/gallery/selfie1.jpeg',
+    src: '/gallery/seafood.jpg',
+    width: 4032,
+    height: 3024
+  },
+  {
+    src: '/gallery/selfie1.jpg',
     width: 3024,
     height: 4032
   },
   {
-    src: '/gallery/selfie2.jpeg',
+    src: '/gallery/selfie2.jpg',
     width: 3024,
     height: 4032
   },
 
   {
-    src: '/gallery/sk8.jpeg',
+    src: '/gallery/sk8.jpg',
     width: 3024,
     height: 4032
   },
@@ -65,402 +65,402 @@ export const photos = [{
     height: 2778
   },
   {
-    src: '/gallery/thrift.jpeg',
+    src: '/gallery/thrift.jpg',
     width: 3024,
     height: 4032
   },
   {
-    src: '/gallery/turkish.jpeg',
+    src: '/gallery/turkish.jpg',
     width: 4032,
     height: 3024
   },
   {
-    src: '/gallery/watermelon2.jpeg',
+    src: '/gallery/watermelon2.jpg',
     width: 3024,
     height: 4032
   },
   {
-    src: '/gallery/watermelone.jpeg',
+    src: '/gallery/watermelone.jpg',
     width: 3024,
     height: 4032
   },
   {
-    src: '/gallery/brain.jpeg',
+    src: '/gallery/brain.jpg',
     width: 3024,
     height: 4032
   },
   {
-    src: '/gallery/breakfast.jpeg',
+    src: '/gallery/breakfast.jpg',
     width: 3024,
     height: 4032
   },
   {
-    src: '/gallery/cat.jpeg',
+    src: '/gallery/cat.jpg',
     width: 3024,
     height: 4032
   },
   {
-    src: '/gallery/cocktail.jpeg',
+    src: '/gallery/cocktail.jpg',
     width: 3024,
     height: 4032
   },
   {
-    src: '/gallery/cucumber.jpeg',
+    src: '/gallery/cucumber.jpg',
     width: 3024,
     height: 4032
   },
   {
-    src: '/gallery/dimsum.jpeg',
+    src: '/gallery/dimsum.jpg',
     width: 3024,
     height: 4032
   },
   {
-    src: '/gallery/dora.jpeg',
+    src: '/gallery/dora.jpg',
     width: 3024,
     height: 4032
   },
   {
-    src: '/gallery/eggplant.jpeg',
+    src: '/gallery/eggplant.jpg',
     width: 3024,
     height: 4032
   },
   {
-    src: '/gallery/filmpic.jpeg',
+    src: '/gallery/filmpic.jpg',
     width: 4032,
     height: 3024
   },
   {
-    src: '/gallery/girl.jpeg',
+    src: '/gallery/girl.jpg',
     width: 3024,
     height: 4032
   },
   {
-    src: '/gallery/kaytra.jpeg',
+    src: '/gallery/kaytra.jpg',
     width: 4032,
     height: 3024
   },
   {
-    src: '/gallery/lou.jpeg',
+    src: '/gallery/lou.jpg',
     width: 3024,
     height: 4032
   },
   {
-    src: '/gallery/icecream.jpeg',
+    src: '/gallery/icecream.jpg',
     width: 3024,
     height: 4032
   },
   {
-    src: '/gallery/ikea.jpeg',
+    src: '/gallery/ikea.jpg',
     width: 4032,
     height: 3024
   },
   {
-    src: '/gallery/kiss.jpeg',
+    src: '/gallery/kiss.jpg',
     width: 3024,
     height: 4032
   },
   {
-    src: '/gallery/kobe.jpeg',
+    src: '/gallery/kobe.jpg',
     width: 3024,
     height: 4032
   },
   {
-    src: '/gallery/nudebeach.jpeg',
+    src: '/gallery/nudebeach.jpg',
     width: 3024,
     height: 4032
   },
   {
-    src: '/gallery/silver.jpeg',
+    src: '/gallery/silver.jpg',
     width: 960,
     height: 1920
   },
   {
-    src: '/gallery/sunglass.jpeg',
+    src: '/gallery/sunglass.jpg',
     width: 3024,
     height: 4032
   },
   {
-    src: '/gallery/swing.jpeg',
+    src: '/gallery/swing.jpg',
     width: 3024,
     height: 4032
   },
   {
-    src: '/gallery/taiyaki.jpeg',
+    src: '/gallery/taiyaki.jpg',
     width: 3024,
     height: 4032
   },
   {
-    src: '/gallery/tree.jpeg',
+    src: '/gallery/tree.jpg',
     width: 3024,
     height: 4032
   },
   {
-    src: '/gallery/truck.jpeg',
+    src: '/gallery/truck.jpg',
     width: 3024,
     height: 4032
   },
   {
-    src: '/gallery/update1/aburi.jpeg',
+    src: '/gallery/update1/aburi.jpg',
     width: 3024,
     height: 4032
   },
   {
-    src: '/gallery/update1/active.jpeg',
+    src: '/gallery/update1/active.jpg',
     width: 3024,
     height: 4032
   },
   {
-    src: '/gallery/update1/art.jpeg',
+    src: '/gallery/update1/art.jpg',
     width: 3024,
     height: 4032
   },
   {
-    src: '/gallery/update1/bagel.jpeg',
+    src: '/gallery/update1/bagel.jpg',
     width: 3024,
     height: 4032
   },
   {
-    src: '/gallery/update1/banh.jpeg',
+    src: '/gallery/update1/banh.jpg',
     width: 3024,
     height: 4032
   },
   {
-    src: '/gallery/update1/bear.jpeg',
+    src: '/gallery/update1/bear.jpg',
     width: 3024,
     height: 4032
   },
   {
-    src: '/gallery/update1/bearhat.jpeg',
+    src: '/gallery/update1/bearhat.jpg',
     width: 3024,
     height: 4032
   },
   {
-    src: '/gallery/update1/beauty.jpeg',
+    src: '/gallery/update1/beauty.jpg',
     width: 3024,
     height: 4032
   },
   {
-    src: '/gallery/update1/bibimbap.jpeg',
+    src: '/gallery/update1/bibimbap.jpg',
     width: 3024,
     height: 4032
   },
   {
-    src: '/gallery/update1/blossom.jpeg',
+    src: '/gallery/update1/blossom.jpg',
     width: 3024,
     height: 4032
   },
   {
-    src: '/gallery/update1/breakfast.jpeg',
+    src: '/gallery/update1/breakfast.jpg',
     width: 3024,
     height: 4032
   },
   {
-    src: '/gallery/update1/bunnycat.jpeg',
+    src: '/gallery/update1/bunnycat.jpg',
     width: 3024,
     height: 4032
   },
   {
-    src: '/gallery/update1/buns.jpeg',
+    src: '/gallery/update1/buns.jpg',
     width: 3024,
     height: 4032
   },
   {
-    src: '/gallery/update1/burritobowl.jpeg',
+    src: '/gallery/update1/burritobowl.jpg',
     width: 3024,
     height: 4032
   },
   {
-    src: '/gallery/update1/chicken.jpeg',
+    src: '/gallery/update1/chicken.jpg',
     width: 3024,
     height: 4032
   },
   {
-    src: '/gallery/update1/choco.jpeg',
+    src: '/gallery/update1/choco.jpg',
     width: 3024,
     height: 4032
   },
   {
-    src: '/gallery/update1/circle.jpeg',
+    src: '/gallery/update1/circle.jpg',
     width: 3024,
     height: 4032
   },
   {
-    src: '/gallery/update1/crepecake.jpeg',
+    src: '/gallery/update1/crepecake.jpg',
     width: 4032,
     height: 3024
   },
   {
-    src: '/gallery/update1/doraemon.jpeg',
+    src: '/gallery/update1/doraemon.jpg',
     width: 3024,
     height: 4032
   },
   {
-    src: '/gallery/update1/ferris.jpeg',
+    src: '/gallery/update1/ferris.jpg',
     width: 4032,
     height: 3024
   },
   {
-    src: '/gallery/update1/frogcake.jpeg',
+    src: '/gallery/update1/frogcake.jpg',
     width: 3024,
     height: 4032
   },
   {
-    src: '/gallery/update1/froghat.jpeg',
+    src: '/gallery/update1/froghat.jpg',
     width: 3024,
     height: 4032
   },
   {
-    src: '/gallery/update1/frogskate.jpeg',
+    src: '/gallery/update1/frogskate.jpg',
     width: 3024,
     height: 4032
   },
   {
-    src: '/gallery/update1/garnish.jpeg',
+    src: '/gallery/update1/garnish.jpg',
     width: 1284,
     height: 2139
   },
   {
-    src: '/gallery/update1/grape.jpeg',
+    src: '/gallery/update1/grape.jpg',
     width: 3024,
     height: 4032
   },
   {
-    src: '/gallery/update1/hanch.jpeg',
+    src: '/gallery/update1/hanch.jpg',
     width: 3024,
     height: 4032
   },
   {
-    src: '/gallery/update1/heart.jpeg',
+    src: '/gallery/update1/heart.jpg',
     width: 4032,
     height: 3024
   },
   {
-    src: '/gallery/update1/hock.jpeg',
+    src: '/gallery/update1/hock.jpg',
     width: 3024,
     height: 4032
   },
   {
-    src: '/gallery/update1/icecream.jpeg',
+    src: '/gallery/update1/icecream.jpg',
     width: 3024,
     height: 4032
   },
   {
-    src: '/gallery/update1/ikeahaul.jpeg',
+    src: '/gallery/update1/ikeahaul.jpg',
     width: 4032,
     height: 3024
   },
   {
-    src: '/gallery/update1/kitkat.jpeg',
+    src: '/gallery/update1/kitkat.jpg',
     width: 4032,
     height: 3024
   },
   {
-    src: '/gallery/update1/leaf.jpeg',
+    src: '/gallery/update1/leaf.jpg',
     width: 3024,
     height: 4032
   },
   {
-    src: '/gallery/update1/macaron.jpeg',
+    src: '/gallery/update1/macaron.jpg',
     width: 4032,
     height: 3024
   },
   {
-    src: '/gallery/update1/mochido.jpeg',
+    src: '/gallery/update1/mochido.jpg',
     width: 3024,
     height: 4032
   },
   {
-    src: '/gallery/update1/montreal.jpeg',
+    src: '/gallery/update1/montreal.jpg',
     width: 3024,
     height: 4032
   },
   {
-    src: '/gallery/update1/notre.jpeg',
+    src: '/gallery/update1/notre.jpg',
     width: 3024,
     height: 4032
   },
   {
-    src: '/gallery/update1/pasta.jpeg',
+    src: '/gallery/update1/pasta.jpg',
     width: 3024,
     height: 4032
   },
   {
-    src: '/gallery/update1/pizza.jpeg',
+    src: '/gallery/update1/pizza.jpg',
     width: 3024,
     height: 4032
   },
   {
-    src: '/gallery/update1/rye.jpeg',
+    src: '/gallery/update1/rye.jpg',
     width: 3024,
     height: 4032
   },
   {
-    src: '/gallery/update1/sake.jpeg',
+    src: '/gallery/update1/sake.jpg',
     width: 3024,
     height: 4032
   },
   {
-    src: '/gallery/update1/salmon.jpeg',
+    src: '/gallery/update1/salmon.jpg',
     width: 3024,
     height: 4032
   },
   {
-    src: '/gallery/update1/sandwich.jpeg',
+    src: '/gallery/update1/sandwich.jpg',
     width: 4032,
     height: 3024
   },
   {
-    src: '/gallery/update1/schwartz.jpeg',
+    src: '/gallery/update1/schwartz.jpg',
     width: 3024,
     height: 4032
   },
   {
-    src: '/gallery/update1/selfie3.jpeg',
+    src: '/gallery/update1/selfie3.jpg',
     width: 3024,
     height: 4032
   },
   {
-    src: '/gallery/update1/selfie4.jpeg',
+    src: '/gallery/update1/selfie4.jpg',
     width: 3024,
     height: 4032
   },
   {
-    src: '/gallery/update1/selfie5.jpeg',
+    src: '/gallery/update1/selfie5.jpg',
     width: 3024,
     height: 4032
   },
   {
-    src: '/gallery/update1/shakshouka.jpeg',
+    src: '/gallery/update1/shakshouka.jpg',
     width: 4032,
     height: 3024
   },
   {
-    src: '/gallery/update1/sky.jpeg',
+    src: '/gallery/update1/sky.jpg',
     width: 3024,
     height: 4032
   },
   {
-    src: '/gallery/update1/skyline.jpeg',
+    src: '/gallery/update1/skyline.jpg',
     width: 4032,
     height: 3024
   },
   {
-    src: '/gallery/update1/spit.jpeg',
+    src: '/gallery/update1/spit.jpg',
     width: 3024,
     height: 4032
   },
   {
-    src: '/gallery/update1/stinky.jpeg',
+    src: '/gallery/update1/stinky.jpg',
     width: 3024,
     height: 4032
   },
   {
-    src: '/gallery/update1/sundown.jpeg',
+    src: '/gallery/update1/sundown.jpg',
     width: 4032,
     height: 3024
   },
   {
-    src: '/gallery/update1/van.jpeg',
+    src: '/gallery/update1/van.jpg',
     width: 4032,
     height: 3024
   },
