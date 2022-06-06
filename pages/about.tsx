@@ -18,8 +18,8 @@ const About: NextPage = () => {
                 My name is Albert Zheng. I&apos;m a 4th-year Computer Science and Economics 
                 student at the 
                 <span className={styles.strongParagraph} id={styles.orange}> University of Toronto</span>.
-                 I&apos;m based in <span className={styles.strongParagraph} id={styles.teal}>Toronto</span> &amp; 
-                <span className={styles.strongParagraph} id={styles.teal}> Vancouver </span>
+                 I&apos;m based in <span className={styles.strongParagraph} id={styles.teal}>Vancouver</span> &amp; 
+                <span className={styles.strongParagraph} id={styles.teal}> Toronto </span>
                 but very open to opportunities in the <span className={styles.strongParagraph} id={styles.lime}>United States</span>.
             </span>
 
