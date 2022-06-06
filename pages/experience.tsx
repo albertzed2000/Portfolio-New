@@ -19,9 +19,11 @@ const Experience: NextPage = () => {
     <div className={styles.container}>
 
       <main className={styles.main}>
-        <div className={styles.pageTitle} id={styles.experienceHeader}>
-          EXPERIENCE
-        </div>
+      <span className={styles.title}>
+          <span className={styles.pageTitle} id={styles.orange}>
+            EXPERIENCE
+          </span>
+        </span>
 
         <VerticalTimeline className={styles.timelineContainer} lineColor="#F79256">
 

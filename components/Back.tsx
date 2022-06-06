@@ -7,11 +7,12 @@ const Back = (): JSX.Element => {
 
     <Link
     href="/"
+    className={styles.back}
     >
-    <a
+    <a className={styles.backText}
     >
-    <h2
-    >Go Back</h2>
+    <span 
+    >BACK</span>
     </a>
   </Link>
 )

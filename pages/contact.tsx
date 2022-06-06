@@ -13,9 +13,11 @@ const Contact: NextPage = () => {
     <div className={styles.container}>
 
       <main className={styles.main}>
-        <h1 className={styles.pageTitle} id={styles.contactHeader}>
-          CONTACT
-        </h1>
+      <span className={styles.title}>
+          <span className={styles.pageTitle} id={styles.lime}>
+            CONTACT
+          </span>
+        </span>
 
         <div className={styles.contactIcons}>
 

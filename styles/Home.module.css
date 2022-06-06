@@ -165,39 +165,36 @@
 .largeParagraphText {
   font-size: 40px;
   font-weight: 500;
+  padding: 0 0 15px 0;
 }
 
-.pageTitle {
-  font-size: 45px;
-  font-weight: 700;
-}
 
-#aboutHeader {
+#purple {
   color: #89608E;
 }
 
 .aboutText{
-  display: flex;
+  /* display: flex;
   align-items: center;
   justify-content: center;
-  flex-wrap: wrap;
+  flex-wrap: wrap; */
   max-width: 500px;
 }
 
 
 /* =========EXPERIENCE============ */
 
-#experienceHeader {
+#orange {
   color: #F79256;
 }
 
 /* =========GALLERY============ */
-#galleryHeader {
+#teal {
   color: #00B2CA;
 }
 
 /* =========CONTACT============ */
-#contactHeader {
+#lime {
   color: #9BC53D;
 }
 
@@ -277,21 +274,36 @@
 
 
 
+/* ============Page title============== */
+
+.pageTitle {
+  font-size: 45px;
+  font-weight: 700;
+}
+
+/* .title {
+  padding: 0 0 15px 0;
+} */
+
+/* ===============Back============== */
 
 
+.back {
+  background-color: #00B2CA;
+}
 
+.backText {
+  position:absolute;
+  left: 15px;
+  top: 0px;
+  font-size: 45px;
+  font-weight: 700;
+  padding: 0px 0px 0px 0;
+}
 
-
-
-
-
-
-
-
-
-
-
-
+.strongParagraph {
+  font-weight: 700;
+}
 
 @media (max-width: 600px) {
   .grid {
