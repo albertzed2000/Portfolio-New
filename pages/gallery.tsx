@@ -18,11 +18,13 @@ const Gallery: NextPage = () => {
   });
   
   const activate = (image, x, y) => {
-    image.style.left = `${x}px`;
-    image.style.top = `${y}px`;
-
-    image.dataset.status = "active";
-    setLastPos({x, y})
+    if(image){
+      image.style.left = `${x}px`;
+      image.style.top = `${y}px`;
+  
+      image.dataset.status = "active";
+      setLastPos({x, y})
+    }
   }
 
   const distanceFromLast = (x, y) => {
