@@ -4,10 +4,13 @@ import {AiFillGithub, AiFillLinkedin, AiFillMail} from 'react-icons/ai'
 import {FaToiletPaper} from 'react-icons/fa'
 
 const Footer = () => {
+    if(typeof window !== 'undefined'){
+        if(window.location.pathname == "/gallery"){
+            return (<span></span>)
+        }
 
-    if(window && window.location.pathname == "/gallery"){
-        return (<span></span>)
     }
+
     return(
     <footer className={styles.footer}>
         <span className={styles.footerCopyright}>
