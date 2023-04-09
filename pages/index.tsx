@@ -36,6 +36,13 @@ const Home: NextPage = () => {
     })
   }
 
+  const cardHover = (e : any, zIndex: any) => {
+    if(e.target){
+      const card = e.target;
+      card.style.zIndex = zIndex;
+    }
+  }
+
 
   // let darkMode = false;
 
@@ -51,8 +58,8 @@ const Home: NextPage = () => {
             <a
             className={styles.card}
             id={styles.aboutCard}
-            onMouseEnter={()=>{setBgColor(COLORS.about)}}
-            onMouseLeave={()=>{setBgColor('#ffffff')}}
+            onMouseEnter={(e)=>{setBgColor(COLORS.about); cardHover(e, 1)}}
+            onMouseLeave={(e)=>{setBgColor('#ffffff'); cardHover(e, 2)}}
             >
 
             <h1>ABOUT</h1>
@@ -65,8 +72,8 @@ const Home: NextPage = () => {
             <a
             className={styles.card}
             id={styles.experienceCard}
-            onMouseEnter={()=>{setBgColor(COLORS.experience)}}
-            onMouseLeave={()=>{setBgColor('#ffffff')}}
+            onMouseEnter={(e)=>{setBgColor(COLORS.experience); cardHover(e, 1)}}
+            onMouseLeave={(e)=>{setBgColor('#ffffff'); cardHover(e, 2)}}
             >
 
             <h1>EXPERIENCE</h1>
@@ -79,8 +86,8 @@ const Home: NextPage = () => {
             <a
             className={styles.card}
             id={styles.galleryCard}
-            onMouseEnter={()=>{setBgColor(COLORS.gallery)}}
-            onMouseLeave={()=>{setBgColor('#ffffff')}}
+            onMouseEnter={(e)=>{setBgColor(COLORS.gallery); cardHover(e, 1)}}
+            onMouseLeave={(e)=>{setBgColor('#ffffff'); cardHover(e, 2)}}
             >
 
             <h1>GALLERY</h1>
@@ -93,8 +100,8 @@ const Home: NextPage = () => {
             <a
             className={styles.card}
             id={styles.contactCard}
-            onMouseEnter={()=>{setBgColor(COLORS.contact)}}
-            onMouseLeave={()=>{setBgColor('#ffffff')}}
+            onMouseEnter={(e)=>{setBgColor(COLORS.contact); cardHover(e, 1)}}
+            onMouseLeave={(e)=>{setBgColor('#ffffff'); cardHover(e, 2)}}
             >
 
             <h1>CONTACT</h1>
