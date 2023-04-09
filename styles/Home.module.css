@@ -249,6 +249,46 @@
 display: none;
 }
 
+
+#blob {
+  background-color: black;
+  aspect-ratio: 1;
+  position: absolute;
+  font-size: 35px;
+  left: 50%;
+  top: 50%;
+  translate: -50% -50%;
+  border-radius: 50%;
+  background: linear-gradient(to right, #03fcec, #00B2CA);
+  animation: rotate 20s infinite;
+  height:34vmax;
+  opacity: 0.8;
+}
+
+#blur {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  z-index: 2;
+  backdrop-filter: blur(12vmax);
+}
+
+@keyframes rotate {
+  from {
+    rotate: 0deg;
+  }
+  
+  50% {
+    scale: 1 1.5;
+  }
+  
+  to {
+    rotate: 360deg;
+  }
+}
+
+
+
 /* =========CONTACT============ */
 #lime {
   color: #9BC53D;

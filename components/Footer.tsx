@@ -3,7 +3,12 @@ import styles from '../styles/Home.module.css'
 import {AiFillGithub, AiFillLinkedin, AiFillMail} from 'react-icons/ai'
 import {FaToiletPaper} from 'react-icons/fa'
 
-const Footer = (): JSX.Element => (
+const Footer = () => {
+
+    if(window.location.pathname == "/gallery"){
+        return (<span></span>)
+    }
+    return(
     <footer className={styles.footer}>
         <span className={styles.footerCopyright}>
             Albert Zheng © 2022
@@ -30,6 +35,9 @@ const Footer = (): JSX.Element => (
 
         </span>
     </footer>
-)
+
+    )
+
+    }
 
 export default Footer

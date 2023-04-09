@@ -17,11 +17,6 @@ export const photos = [{
     height: wide
   },
   {
-    src: '/gallery/food.jpg',
-    width: short,
-    height: wide
-  },
-  {
     src: '/gallery/piu.jpg',
     width: wide,
     height: short
@@ -47,27 +42,7 @@ export const photos = [{
     height: wide
   },
   {
-    src: '/gallery/turkish.jpg',
-    width: wide,
-    height: short
-  },
-  {
-    src: '/gallery/watermelon2.jpg',
-    width: short,
-    height: wide
-  },
-  {
-    src: '/gallery/watermelone.jpg',
-    width: short,
-    height: wide
-  },
-  {
     src: '/gallery/dora.jpg',
-    width: short,
-    height: wide
-  },
-  {
-    src: '/gallery/eggplant.jpg',
     width: short,
     height: wide
   },
@@ -95,16 +70,6 @@ export const photos = [{
     src: '/gallery/silver.jpg',
     width: 240,
     height: 480
-  },
-  {
-    src: '/gallery/swing.jpg',
-    width: short,
-    height: wide
-  },
-  {
-    src: '/gallery/taiyaki.jpg',
-    width: short,
-    height: wide
   },
   {
     src: '/gallery/truck.jpg',
@@ -187,11 +152,75 @@ export const photos = [{
     height: short
   },
   {
-    src: '/gallery/schwartz.jpg',
+    src: '/gallery/evora1.jpg',
     width: short,
     height: wide
   },
-  
+  {
+    src: '/gallery/evora2.jpg',
+    width: short,
+    height: wide
+  },
+  {
+    src: '/gallery/lisbon1.jpg',
+    width: wide,
+    height: short
+  },
+  {
+    src: '/gallery/bones.jpg',
+    width: short,
+    height: wide
+  },
+  {
+    src: '/gallery/evora3.jpg',
+    width: short,
+    height: wide
+  },
+  {
+    src: '/gallery/lisbonsunset.jpg',
+    width: short,
+    height: wide
+  },
+  {
+    src: '/gallery/basquiat.jpg',
+    width: short,
+    height: wide
+  },
+  {
+    src: '/gallery/sagrada.jpg',
+    width: short,
+    height: wide
+  },
+  {
+    src: '/gallery/cinqsentits.jpg',
+    width: short,
+    height: wide
+  },
+  {
+    src: '/gallery/selfportrait.jpg',
+    width: short,
+    height: wide
+  },
+  {
+    src: '/gallery/shoes.jpg',
+    width: short,
+    height: wide
+  },
+  {
+    src: '/gallery/banksy.jpg',
+    width: short,
+    height: wide
+  },
+  {
+    src: '/gallery/museumpiece.jpg',
+    width: wide,
+    height: short
+  },
+  {
+    src: '/gallery/evora4.jpg',
+    width: short,
+    height: wide
+  },
 
   
 ]
