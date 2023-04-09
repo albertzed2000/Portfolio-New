@@ -395,6 +395,12 @@ display: none;
   font-size: 45px;
   font-weight: 700;
   padding: 0px 0px 0px 0;
+  transition: 200ms;
+}
+
+.backText:hover {
+  font-size: 65px;
+  transition: 200ms;
 }
 
 .strongParagraph {

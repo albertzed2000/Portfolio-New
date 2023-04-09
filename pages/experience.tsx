@@ -156,7 +156,7 @@ const Experience: NextPage = () => {
 
           </VerticalTimeline>
 
-        <Back/>
+        <Back color="#F79256"/>
     </div>
   )
 }

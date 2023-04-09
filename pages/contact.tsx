@@ -38,7 +38,7 @@ const Contact: NextPage = () => {
 
         </div>
 
-        <Back/>
+        <Back color="#9BC53D"/>
     </div>
   )
 }

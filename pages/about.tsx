@@ -30,7 +30,7 @@ const About: NextPage = () => {
             </span>
 
 
-            <Back/>
+            <Back color="#89608E"/>
         </div>
     </Layout>
   )

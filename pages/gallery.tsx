@@ -71,7 +71,7 @@ const Gallery: NextPage = () => {
   return (
     <div className={styles.pageContainer}>
         <span style={{zIndex: 100000}}  className={styles.title}>
-          <Back />
+          <Back color="#00B2CA"/>
           <span className={styles.pageTitle} id={styles.teal}>
             GALLERY
           </span>
