@@ -1,5 +1,5 @@
 import styles from '../styles/Home.module.css'
-
+import {useState} from 'react'
 import {AiFillGithub, AiFillLinkedin, AiFillMail} from 'react-icons/ai'
 import {FaToiletPaper} from 'react-icons/fa'
 
@@ -11,29 +11,42 @@ const Footer = () => {
 
     }
 
+    let [currText, setCurrText] = useState("");
+
+
     return(
     <footer className={styles.footer}>
         <span className={styles.footerCopyright}>
-            Albert Zheng © 2022
+            Albert Zheng © 2023
         </span>
           
         <span className={styles.footerIconsContainer}>
 
-            <a id={styles.footerGithubIcon} href='https://github.com/albertzed2000' target='blank'>
+            <a onMouseEnter={()=>{setCurrText("GITHUB")}}
+            onMouseLeave={()=>{setCurrText("")}}
+            id={styles.footerGithubIcon} href='https://github.com/albertzed2000' target='blank'>
             <AiFillGithub/>
             </a>
 
-            <a id={styles.footerLinkedinIcon} href='https://www.linkedin.com/in/albertzed/' target='blank'>
+            <a onMouseEnter={()=>{setCurrText("LINKEDIN")}}
+            onMouseLeave={()=>{setCurrText("")}}
+            id={styles.footerLinkedinIcon} href='https://www.linkedin.com/in/albertzed/' target='blank'>
             <AiFillLinkedin/>
             </a>
 
-            <a id={styles.footerMailIcon} href='mailto:mralbertzheng@gmail.com' target='blank'>
+            <a onMouseEnter={()=>{setCurrText("EMAIL")}}
+            onMouseLeave={()=>{setCurrText("")}}
+            id={styles.footerMailIcon} href='mailto:mralbertzheng@gmail.com' target='blank'>
             <AiFillMail/>
             </a>
 
-            <a id={styles.footerResumeIcon} href='https://drive.google.com/file/d/1UiSaKY1HgD1ayzoK8QDWVDTAIjo0lBpu/view?usp=sharing' target='blank'>
+            <a onMouseEnter={()=>{setCurrText("RESUME")}}
+            onMouseLeave={()=>{setCurrText("")}}
+            id={styles.footerResumeIcon} href='https://drive.google.com/file/d/1UiSaKY1HgD1ayzoK8QDWVDTAIjo0lBpu/view?usp=sharing' target='blank'>
             <FaToiletPaper/>
             </a>
+
+            <div className={styles.footerIconsAltText}>{currText}</div>
 
 
         </span>

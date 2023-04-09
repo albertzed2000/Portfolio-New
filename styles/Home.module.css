@@ -175,6 +175,17 @@
   margin-top: -1rem;
 }
 
+.footerIconsAltText {
+  font-size: 25px;
+  /* background-color: #00B2CA; */
+  font-weight: 600;
+  color : "black";
+  margin-right: 15px;
+  /* padding-top: -30px; */
+  overflow: hidden;
+  /* height: 40px; */
+}
+
 
 #footerGithubIcon:hover {
   color:#89608E;

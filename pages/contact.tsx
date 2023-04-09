@@ -12,10 +12,6 @@ const Contact: NextPage = () => {
 
   let [currText, setCurrText] = useState("");
 
-  const onHover = (newText: string) => {
-
-    setCurrText(newText)
-  }
 
   return (
     <div className={styles.pageContainer}>
@@ -55,7 +51,7 @@ const Contact: NextPage = () => {
 
 
         </div>
-        
+
         <div className={styles.contactAltText}>
             {currText}
           </div>
