@@ -5,7 +5,7 @@ import {FaToiletPaper} from 'react-icons/fa'
 
 const Footer = () => {
 
-    if(window.location.pathname == "/gallery"){
+    if(window && window.location.pathname == "/gallery"){
         return (<span></span>)
     }
     return(

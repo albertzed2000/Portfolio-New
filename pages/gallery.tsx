@@ -82,7 +82,7 @@ const Gallery: NextPage = () => {
         <div id={styles.blur}></div> */}
       <div className={styles.galleryContainer}>
         {photos.map((photo, index)=>{
-          return (<img className={styles.galleryImage} key={index} data-index={index.toString()} data-status="inactive" width={photos[index].width} height={photos[index].height} src={photos[index].src}></img>)
+          return (<img className={styles.galleryImage} alt='gallery image' key={index} data-index={index.toString()} data-status="inactive" width={photos[index].width} height={photos[index].height} src={photos[index].src}></img>)
         })}
       </div>
     </div>
