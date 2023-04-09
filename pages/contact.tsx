@@ -10,9 +10,7 @@ import {FaToiletPaper} from 'react-icons/fa'
 
 const Contact: NextPage = () => {
   return (
-    <div className={styles.container}>
-
-      <main className={styles.main}>
+    <div className={styles.pageContainer}>
       <span className={styles.title}>
           <span className={styles.pageTitle} id={styles.lime}>
             CONTACT
@@ -41,8 +39,6 @@ const Contact: NextPage = () => {
         </div>
 
         <Back/>
-
-      </main>
     </div>
   )
 }

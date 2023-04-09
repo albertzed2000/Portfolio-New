@@ -16,9 +16,7 @@ import TipsAndUpdatesIcon from '@mui/icons-material/TipsAndUpdates';
 
 const Experience: NextPage = () => {
   return (
-    <div className={styles.container}>
-
-      <main className={styles.main}>
+    <div className={styles.pageContainer}>
       <span className={styles.title}>
           <span className={styles.pageTitle} id={styles.orange}>
             EXPERIENCE
@@ -159,8 +157,6 @@ const Experience: NextPage = () => {
           </VerticalTimeline>
 
         <Back/>
-
-      </main>
     </div>
   )
 }

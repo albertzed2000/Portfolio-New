@@ -7,20 +7,18 @@ const About: NextPage = () => {
 
   return (
     <Layout>
-        <div className={styles.container}>
-        <main className={styles.main}>
+        <div className={styles.pageContainer}>
         <span className={styles.title}>
           <span className={styles.pageTitle} id={styles.purple}>
             ABOUT
           </span>
         </span>
             <span className={styles.largeParagraphText}>
-                My name is Albert Zheng. I&apos;m a 4th-year Computer Science and Economics 
-                student at the 
-                <span className={styles.strongParagraph} id={styles.orange}> University of Toronto</span>.
-                 I&apos;m based in <span className={styles.strongParagraph} id={styles.teal}>Vancouver</span> &amp; 
-                <span className={styles.strongParagraph} id={styles.teal}> Toronto </span>
-                but very open to opportunities in the <span className={styles.strongParagraph} id={styles.lime}>United States</span>.
+                My name is Albert Zheng. I&apos;m a 
+                <span className={styles.strongParagraph} id={styles.orange}> University of Toronto</span> graduate.
+                 I&apos;m in 
+                <span className={styles.strongParagraph} id={styles.teal}> Boston. </span>
+                 
             </span>
 
             <span className={styles.largeParagraphText}>
@@ -33,8 +31,6 @@ const About: NextPage = () => {
 
 
             <Back/>
-
-        </main>
         </div>
     </Layout>
   )
