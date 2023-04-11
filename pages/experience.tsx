@@ -34,7 +34,7 @@ const Experience: NextPage = () => {
           iconStyle={{ background: "#F79256", color: "#000" }}
           icon={<WorkIcon/>}
           >
-            <div className={styles.timelineElementTitle}>Intern Software Dev, StoneX Financial</div>
+            <div className={styles.timelineElementTitle}>Developer, StoneX Financial</div>
             <div className={styles.timelineElementTech}>
               Angular | Java Spring | SQL | Pandas | Docker | Kubernetes | Azure CI/CD
               </div>
