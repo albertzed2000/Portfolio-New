@@ -4,6 +4,7 @@ import {AiFillGithub, AiFillLinkedin, AiFillMail} from 'react-icons/ai'
 import {FaToiletPaper} from 'react-icons/fa'
 
 const Footer = () => {
+    let [currText, setCurrText] = useState("");
     if(typeof window !== 'undefined'){
         if(window.location.pathname == "/gallery"){
             return (<span></span>)
@@ -11,7 +12,6 @@ const Footer = () => {
 
     }
 
-    let [currText, setCurrText] = useState("");
 
 
     return(
