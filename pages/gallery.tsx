@@ -3,7 +3,7 @@ import type { NextPage } from 'next'
 import {useState, useEffect} from 'react'
 import styles from '../styles/Home.module.css'
 import Back from '../components/Back'
-import { photos } from '../components/Photos'
+import useSWR from 'swr';
 
 const Gallery: NextPage = () => {
   const height = 500
@@ -12,6 +12,10 @@ const Gallery: NextPage = () => {
     x: 0,
     y: 0
   });
+
+  const fetcher = (url: any) => fetch(url).then((res) => res.json());
+  const { data } = useSWR('/api/readfiles', fetcher);
+  // console.log(data)
   
   const activate = (image:any, x:any, y:any) => {
     if(image){
@@ -81,9 +85,22 @@ const Gallery: NextPage = () => {
         {/* <div id={styles.blob}></div>
         <div id={styles.blur}></div> */}
       <div className={styles.galleryContainer}>
-        {photos.map((photo, index)=>{
-          return (<img className={styles.galleryImage} alt='gallery image' key={index} data-index={index.toString()} data-status="inactive" width={photos[index].width} height={photos[index].height} src={photos[index].src}></img>)
-        })}
+
+          {data  !== undefined ? data.map((photo: any)=>{
+          
+                    if(photo.width > photo.height){
+                      return (<img className={styles.galleryImage} alt='gallery image' key={photo.name} data-index={photo.name} data-status="inactive" 
+                      width="550"
+                       src={photo.name}></img>)
+                    }
+                    else{
+                      return (<img className={styles.galleryImage} alt='gallery image' key={photo.name} data-index={photo.name} data-status="inactive" 
+                      height="550"
+                       src={photo.name}></img>)
+                    }
+                  }) : ""}
+
+
       </div>
     </div>
   )

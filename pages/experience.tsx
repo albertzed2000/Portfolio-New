@@ -30,7 +30,7 @@ const Experience: NextPage = () => {
           className={styles.timelineElement}
           contentStyle={{ background: "#F79256", color: "black" }}
           contentArrowStyle={{ borderRight: "7px solid  #F79256" }}
-          date="May '21 - August '22"
+          date="May '21 - June '23"
           iconStyle={{ background: "#F79256", color: "#000" }}
           icon={<WorkIcon/>}
           >
