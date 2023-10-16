@@ -8,6 +8,7 @@ import useSWR from 'swr';
 const Gallery: NextPage = () => {
   const height = 500
   let [currIndex, setCurrIndex] = useState(0);
+  let [currImageInfo, setCurrImageInfo] = useState({"title": ""})
   let [lastPos, setLastPos] = useState({
     x: 0,
     y: 0
@@ -15,7 +16,6 @@ const Gallery: NextPage = () => {
 
   const fetcher = (url: any) => fetch(url).then((res) => res.json());
   const { data } = useSWR('/api/readfiles', fetcher);
-  // console.log(data)
   
   const activate = (image:any, x:any, y:any) => {
     if(image){
@@ -52,38 +52,24 @@ const Gallery: NextPage = () => {
       
     }
 
-    // window.onpointermove = e => { // code for enable blur background tracking
-    //   let blob = document.getElementById(styles.blob);
-
-    //   if(blob){
-
-    //     // blob.style.left = `${e.clientX}px`
-    //     // blob.style.top = `${e.clientY}px`
-    //     // console.log(blob.style.right)
-    //     blob.animate({
-    //       left: `${e.clientX}px`,
-    //       top: `${e.clientY}px`
-    //     }, { duration: 3000, fill: "forwards" });
-    //   }
-
-    // }
 
   })
-
-  
+  let actualIndex = data !== undefined ? (currIndex - 1) % data.length : 10000;
+  let currRawTitle: string = data !== undefined && data[actualIndex] !== undefined ? data[actualIndex].name: "";
+  let foundIndex = currRawTitle.search("gallery/")
+  let currTitle = foundIndex == -1 ? "GALLERY" : currRawTitle.slice(foundIndex + 8)
 
   return (
     <div className={styles.pageContainer}>
         <span style={{zIndex: 100000}}  className={styles.title}>
           <Back color="#00B2CA"/>
           <span className={styles.pageTitle} id={styles.teal}>
-            GALLERY
+            {(data !== undefined && actualIndex !== -1 ? actualIndex : "") + "      "}
+            {currTitle}
+            {/* GALLERY */}
           </span>
         </span>
 
-      {/* enable blur background follower */}
-        {/* <div id={styles.blob}></div>
-        <div id={styles.blur}></div> */}
       <div className={styles.galleryContainer}>
 
           {data  !== undefined ? data.map((photo: any)=>{
