@@ -64,7 +64,7 @@ const Gallery: NextPage = () => {
         <span style={{zIndex: 100000}}  className={styles.title}>
           <Back color="#00B2CA"/>
           <span className={styles.pageTitle} id={styles.teal}>
-            {(data !== undefined && actualIndex !== -1 ? actualIndex : "") + "      "}
+            {(data !== undefined && actualIndex !== -1 ? "[" + actualIndex + "]" : "") + "      "}
             {currTitle}
             {/* GALLERY */}
           </span>
