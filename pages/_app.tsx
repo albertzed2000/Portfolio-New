@@ -5,10 +5,12 @@ import Head from 'next/head'
 import { AnimatePresence } from 'framer-motion'
 import Footer from '../components/Footer'
 import Layout from '../components/Layout'
+import { Analytics } from '@vercel/analytics/react';
 
 function MyApp({ Component, pageProps, router }: AppProps) {
   const url = `https://zhengalb.com${router.route}` // the url of our site
   return (<>
+  <Analytics/>
         <Head>
           <title>Albert Zheng</title>
           <link rel="icon" href="/favicon.ico" />
