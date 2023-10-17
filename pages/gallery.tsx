@@ -4,27 +4,15 @@ import {useState, useEffect} from 'react'
 import styles from '../styles/Home.module.css'
 import Back from '../components/Back'
 import useSWR from 'swr';
+import { isMobile } from "react-device-detect";
 
 const Gallery: NextPage = () => {
   const height = 500
   let [currIndex, setCurrIndex] = useState(0);
-  let [currImageInfo, setCurrImageInfo] = useState({"title": ""})
-  let [width, setWidth] = useState<number>(window.innerWidth);
-  function handleWindowSizeChange() {
-    setWidth(window.innerWidth);
-}
-useEffect(() => {
-    window.addEventListener('resize', handleWindowSizeChange);
-    return () => {
-        window.removeEventListener('resize', handleWindowSizeChange);
-    }
-}, []);
-
-  let isMobile = width <= 768;
-    let [lastPos, setLastPos] = useState({
-      x: 0,
-      y: 0
-    });
+  let [lastPos, setLastPos] = useState({
+    x: 0,
+    y: 0
+  });
 
   const fetcher = (url: any) => fetch(url).then((res) => res.json());
   const { data } = useSWR('/api/readfiles', fetcher);
