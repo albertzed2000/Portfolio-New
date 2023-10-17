@@ -9,10 +9,22 @@ const Gallery: NextPage = () => {
   const height = 500
   let [currIndex, setCurrIndex] = useState(0);
   let [currImageInfo, setCurrImageInfo] = useState({"title": ""})
-  let [lastPos, setLastPos] = useState({
-    x: 0,
-    y: 0
-  });
+  let [width, setWidth] = useState<number>(window.innerWidth);
+  function handleWindowSizeChange() {
+    setWidth(window.innerWidth);
+}
+useEffect(() => {
+    window.addEventListener('resize', handleWindowSizeChange);
+    return () => {
+        window.removeEventListener('resize', handleWindowSizeChange);
+    }
+}, []);
+
+  let isMobile = width <= 768;
+    let [lastPos, setLastPos] = useState({
+      x: 0,
+      y: 0
+    });
 
   const fetcher = (url: any) => fetch(url).then((res) => res.json());
   const { data } = useSWR('/api/readfiles', fetcher);
@@ -57,7 +69,7 @@ const Gallery: NextPage = () => {
   let actualIndex = data !== undefined ? (currIndex - 1) % data.length : 10000;
   let currRawTitle: string = data !== undefined && data[actualIndex] !== undefined ? data[actualIndex].name: "";
   let foundIndex = currRawTitle.search("gallery/")
-  let currTitle = foundIndex == -1 ? "GALLERY" : currRawTitle.slice(foundIndex + 8)
+  let currTitle = foundIndex == -1 ? isMobile ? "BEGIN TAPPING AROUND" : "GALLERY" : currRawTitle.slice(foundIndex + 8)
 
   return (
     <div className={styles.pageContainer}>
